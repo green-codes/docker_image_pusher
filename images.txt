@@ -29,8 +29,8 @@ nextcloud/aio-clamav
 nextcloud/aio-apache
 jellyfin/jellyfin
 portainer/portainer-ce
-quay.io/prometheus/node-exporter
-utkuozdemir/nvidia_gpu_exporter
+#quay.io/prometheus/node-exporter
+#utkuozdemir/nvidia_gpu_exporter
 
 # Own software
 greencodes/frpc
