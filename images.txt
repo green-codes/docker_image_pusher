@@ -1,9 +1,44 @@
+# base images
 alpine
 ubuntu
+pytorch/pytorch
+
+# software
+mysql
+postgres
+adminer
+keycloak/keycloak
+gitlab/gitlab-ce
+gitlab/gitlab-runner
+mailserver/docker-mailserver
+roundcube/roundcubemail
+nextcloud/aio-nextcloud
+nextcloud/aio-talk
+nextcloud/aio-imaginary
+nextcloud/aio-talk-recording
+nextcloud/all-in-one
+nextcloud/aio-collabora
+nextcloud/aio-fulltextsearch
+nextcloud/aio-postgresql
+nextcloud/aio-redis
+nextcloud/aio-notify-push
+nextcloud/aio-watchtower
+nextcloud/aio-docker-socket-proxy
+nextcloud/aio-borgbackup
+nextcloud/aio-clamav
+nextcloud/aio-apache
+jellyfin/jellyfin
+portainer/portainer-ce
+quay.io/prometheus/node-exporter
+utkuozdemir/nvidia_gpu_exporter
+
+# Own software
 greencodes/frpc
 greencodes/httpd
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
+
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
