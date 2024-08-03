@@ -1,7 +1,7 @@
 # base images
 alpine
 ubuntu
-pytorch/pytorch
+pytorch/pytorch:2.2.0-cuda12.1-cudnn8-runtime
 nvidia/cuda:12.5.1-devel-ubuntu24.04
 
 # software
