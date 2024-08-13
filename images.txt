@@ -32,6 +32,7 @@ jellyfin/jellyfin
 portainer/portainer-ce
 #quay.io/prometheus/node-exporter
 #utkuozdemir/nvidia_gpu_exporter
+ghcr.io/open-webui/open-webui:main
 
 # Own software
 greencodes/frpc
