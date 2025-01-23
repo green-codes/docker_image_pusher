@@ -1,6 +1,28 @@
-nginx
+# base images
+alpine
+ubuntu
+#pytorch/pytorch
+#nvidia/cuda:12.5.1-devel-ubuntu24.04
+
+# software
+mysql
+postgres
+postgres:16
+redis
+adminer
+keycloak/keycloak
+codercom/code-server
+gitlab/gitlab-ce
+gitlab/gitlab-runner
+portainer/portainer-ce
+#quay.io/prometheus/node-exporter
+#utkuozdemir/nvidia_gpu_exporter
+
+# Own software
+
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
+
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
