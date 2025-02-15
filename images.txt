@@ -11,14 +11,17 @@ postgres:16
 redis
 adminer
 keycloak/keycloak
-codercom/code-server
-gitlab/gitlab-ce
-gitlab/gitlab-runner
+#codercom/code-server
+#gitlab/gitlab-ce
+#gitlab/gitlab-runner
 portainer/portainer-ce
-#quay.io/prometheus/node-exporter
-#utkuozdemir/nvidia_gpu_exporter
+quay.io/prometheus/node-exporter
+utkuozdemir/nvidia_gpu_exporter
 
 # Own software
+ghcr.io/green-codes/docker-frps
+ghcr.io/green-codes/docker-frpc
+ghcr.io/green-codes/docker-httpd
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
