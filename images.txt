@@ -1,16 +1,16 @@
 # base images
-alpine
-ubuntu
+--platform=linux/arm64 --platform=linux/amd64 alpine
+--platform=linux/arm64 --platform=linux/amd64 ubuntu
 
 # software
-quay.io/prometheus/node-exporter
-prom/prometheus
-grafana/grafana
+--platform=linux/arm64 --platform=linux/amd64 quay.io/prometheus/node-exporter
+--platform=linux/arm64 --platform=linux/amd64 prom/prometheus
+--platform=linux/arm64 --platform=linux/amd64 grafana/grafana
 
 # Own software
-ghcr.io/green-codes/docker-frps
-ghcr.io/green-codes/docker-frpc
-ghcr.io/green-codes/docker-httpd
+--platform=linux/arm64 --platform=linux/amd64 ghcr.io/green-codes/docker-frps
+--platform=linux/arm64 --platform=linux/amd64 ghcr.io/green-codes/docker-frpc
+--platform=linux/arm64 --platform=linux/amd64 ghcr.io/green-codes/docker-httpd
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
