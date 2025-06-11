@@ -4,6 +4,8 @@ ubuntu
 
 # software
 quay.io/prometheus/node-exporter
+prom/prometheus
+grafana/grafana
 
 # Own software
 ghcr.io/green-codes/docker-frps
